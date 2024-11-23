@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard de Ácidos Nucleicos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Dashboard Interactivo: Ácidos Nucleicos</h1>
+    <p>Explora la estructura y función de los ácidos nucleicos: ADN y ARN.</p>
+  </header>
+
+  <section id="info">
+    <div class="card">
+      <h2>¿Qué son los Ácidos Nucleicos?</h2>
+      <p>Los ácidos nucleicos son macromoléculas biológicas fundamentales para la vida. Hay dos tipos principales: ADN (ácido desoxirribonucleico) y ARN (ácido ribonucleico).</p>
+    </div>
+    <div class="card">
+      <h2>Estructura del ADN</h2>
+      <p>El ADN tiene una estructura de doble hélice formada por dos cadenas de nucleótidos. Cada nucleótido está compuesto por un azúcar, un grupo fosfato y una base nitrogenada.</p>
+    </div>
+    <div class="card">
+      <h2>Función del ARN</h2>
+      <p>El ARN transcribe la información genética del ADN y participa en la síntesis de proteínas en el ribosoma.</p>
+    </div>
+  </section>
+
+  <section id="interactive">
+    <h2>Visualiza la Estructura del ADN</h2>
+    <div id="adn-visualizacion">
+      <button onclick="mostrarADN()">Mostrar ADN</button>
+      <p id="adn-description">Haz clic en el botón para ver una representación de la estructura del ADN.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>Creado por [Tu Nombre] - 2024</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
